@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC
+     "-//NISO//DTD ncx 2005-1//EN"
+     "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1"
+     xml:lang="en-US"
+     xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <!-- The following four metadata items are required for all
+        NCX documents, including those conforming to the relaxed
+        constraints of OPS 2.0 -->
+    <meta name="dtb:uid" content="{Uid}"/><!--随机UID eg: 51037e82-03ff-11dd-9fbb-0018f369440e-->
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+    <meta name="provider" content="Made by Epub Maker 0.0.1"/>
+    <meta name="builder" content="Made by Epub Maker 0.0.1"/>
+    <meta name="right" content="Made by Epub Maker 0.0.1"/>
+  </head>
+<docTitle><text> {Title} </text></docTitle><!--文章标题-->
+<docAuthor><text> {Author} </text></docAuthor><!--文章作者-->
+
+<navMap>
+
+    <navPoint id="coverpage" playOrder="0">
+    <navLabel><text>封面</text></navLabel>
+    <content src="coverpage.html"/>
+    </navPoint>
+
+    <!--ANOTHER NAVPOINT-->
+
+    <!--<navPoint id="chapter1" playOrder="1">
+    <navLabel><text>第 1 页</text></navLabel>
+    <content src="chapter1.html"/>
+    </navPoint>-->
+
+</navMap>
+</ncx>

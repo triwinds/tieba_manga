@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package version="2.0" unique-identifier="PrimaryID" xmlns="http://www.idpf.org/2007/opf">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>{Title}</dc:title><!--文章标题-->
+<dc:identifier opf:scheme="ISBN"></dc:identifier>
+<dc:language>zh-CN</dc:language>
+<dc:creator>{Author}</dc:creator><!--文章作者-->
+<dc:publisher>Epub Maker</dc:publisher>
+<dc:description></dc:description>
+<dc:coverage></dc:coverage>
+<dc:source>{Source}</dc:source><!--文章来源-->
+<dc:date>{PushDate}</dc:date><!--文章发表日期-->
+<dc:rights>Made by Epub Maker 0.0.1</dc:rights>
+<dc:subject></dc:subject>
+<dc:contributor></dc:contributor>
+<dc:type>[type]</dc:type>
+<dc:format></dc:format>
+<dc:relation></dc:relation>
+<dc:builder>Epub Maker</dc:builder>
+<dc:builder_version>0.0.1</dc:builder_version>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<!-- Content Documents -->
+<item id="main-css" href="css/main.css" media-type="text/css"/>
+<item id="coverpage"  href="coverpage.html"  media-type="application/xhtml+xml"/>
+<!-- ANOTHER ITEM -->
+<!--<item id="chapter1"  href="chapter1.html"  media-type="application/xhtml+xml"/>-->
+
+
+<item id="ncx"  href="fb.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="css" href="css/main.css" media-type="text/css"/>
+<!--<item id="cover-image" href="images/cover.jpg" media-type="image/jpeg"/>-->
+</manifest>
+<spine toc="ncx">
+<itemref idref="coverpage" linear="yes"/>
+<!-- ANOTHER ITEMREF -->
+<!--<itemref idref="chapter1" linear="yes"/>-->
+
+
+</spine>
+<guide>
+<reference type="cover" title="封面"  href="coverpage.html"/>
+
+</guide>
+</package>
